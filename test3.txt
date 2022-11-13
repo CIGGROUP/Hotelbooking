@@ -1,4 +1,5 @@
-Hey`
-Good moring
+hi
+hello
 how are you
 thanks
+bye
