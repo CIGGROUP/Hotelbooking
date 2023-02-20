@@ -1,0 +1,25 @@
+<html>
+   <head>
+      <title>CIG Hotel - Guest Registration Form</title>
+   </head>
+   
+   <body>
+      <h1>Guest Registration Form</h1>
+      
+      <div ng-app = "" > 
+         <p>Select the Existing Customer : <input type = "text" ng-model = "guestname"></p>
+	   <BR><BR>
+         <p>First Name : <input type = "text" ng-model = "guestfirstname"></p>
+	   <p>Last Name : <input type = "text" ng-model = "guestlastname"></p>
+	   <p>Address : <input type = "address" ng-model = "guestaddress"></p>
+
+         <BR><BR><BR><HR>
+         <p>Guest <span ng-bind = "guestname"> </span> details like <span ng-bind = "guesfirsttname"> </span>, 
+           <span ng-bind = "guestlastname"> </span>  are udpated in the CIG World! </p>
+      </div>
+      
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"> 
+      </script>
+      
+   </body>
+</html>
